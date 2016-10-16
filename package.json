@@ -1,0 +1,32 @@
+{
+  "name": "portknock",
+  "version": "0.0.0",
+  "description": "Simple utility for port knocking written in Node.js",
+  "main": "portknock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhmeadows63/node-portknock.git"
+  },
+  "keywords": [
+    "port",
+    "knock",
+    "ipv4",
+    "ipv6",
+    "tcp",
+    "udp"
+  ],
+  "author": "martin@netconfig.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhmeadows63/node-portknock/issues"
+  },
+  "homepage": "https://github.com/mhmeadows63/node-portknock#readme",
+  "dependencies": {
+    "ipaddr.js": "^1.2.0",
+    "node-getopt": "^0.2.3",
+    "scope-chain": "^1.1.0"
+  }
+}

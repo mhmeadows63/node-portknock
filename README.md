@@ -1,25 +1,27 @@
-mhmeadows53/portknock
-=====================
+# portknock
 
 Simple utility for port knocking written in Node.js
 
 If you find it useful but you think it lacks some functionality please let me know by creating an issue. Thank you! 
 
-Basic usage
------------
+## Installation
+
+```bash
+$ npm install -g portknock
+$ (cd /usr/local/bin ; ln -sf ../lib/node_modules/portknock/portknock.js portknock)
+```
+
+
+## Basic usage
 
 `portknock your.server.com 1234 8521 4785`
 
-Options
--------
+## Options
 
 `portknock --help` will tell you everything you need. Here is the output to save you a few seconds:
 
 ```
-usage: knock [-h] [-t TIMEOUT] [-d DELAY] [-u] host port [port ...]
-
-Simple port-knocking client written in python3. See more at
-https://github.com/grongor/knock
+Usage: portknock [-h] [-t TIMEOUT] [-d DELAY] [-u] host port [port ...]
 
 positional arguments:
   host                  Hostname or IP address of the host to knock on.
@@ -35,4 +37,7 @@ optional arguments:
                         How many milliseconds to wait between each knock.
                         Default is 200 ms.
   -u, --udp             Use UDP instead of TCP.
+
+Simple port-knocking client written in Node.js. See more at
+https://github.com/mhmeadows63/node-portknock
 ```
