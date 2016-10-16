@@ -11,7 +11,6 @@ $ npm install -g portknock
 $ (cd /usr/local/bin ; ln -sf ../lib/node_modules/portknock/portknock.js portknock)
 ```
 
-
 ## Basic usage
 
 `portknock your.server.com 1234 8521 4785`
@@ -41,3 +40,8 @@ optional arguments:
 Simple port-knocking client written in Node.js. See more at
 https://github.com/mhmeadows63/node-portknock
 ```
+
+# Acknowledgements
+
+This implementation is a heavy plagiarisation of the Python3 work by Gronger 
+[here](https://github.com/grongor/knock), many thanks.
