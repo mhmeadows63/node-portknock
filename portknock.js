@@ -1,4 +1,4 @@
-#! /usr/bin/env node-strict
+#! /usr/bin/env node
 var chain = require('scope-chain');
 //var debug = exports.debug = require('debug-repl')(module);
 var dgram = require('dgram');
