@@ -7,8 +7,7 @@ If you find it useful but you think it lacks some functionality please let me kn
 ## Installation
 
 ```bash
-$ npm install -g portknock
-$ (cd /usr/local/bin ; ln -sf ../lib/node_modules/portknock/portknock.js portknock)
+# npm install -g portknock
 ```
 
 ## Basic usage
